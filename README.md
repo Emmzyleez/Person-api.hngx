@@ -47,3 +47,17 @@ Before you begin, make sure you have the following prerequisites installed:
 
     ```bash
     pip install -r requirements.txt
+5. Create a new Django project:
+
+   ```bash
+   django-admin startproject person_api .
+6. Create a new Django App:
+
+   ```bash
+   python manage.py startapp myapp
+7. Apply database migrations:
+
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+    
