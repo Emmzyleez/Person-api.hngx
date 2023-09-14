@@ -33,9 +33,14 @@ Before you begin, make sure you have the following prerequisites installed:
 1. Clone the GitHub repository:
 
    ```bash
-   git clone https://github.com/emmzyleez/person-api-hngx.git
-  
+   git clone https://github.com/emmzyleez/person-api-hngx.git 
 2. Navigate to the project directory:
 
    ```bash
    cd person-api-hngx
+ 3. Create and activate virtual environment
+    
+    ```bash
+    python -m venv .venv
+    venv\scripts\activate
+ 5. 
