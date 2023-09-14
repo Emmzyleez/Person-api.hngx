@@ -43,4 +43,7 @@ Before you begin, make sure you have the following prerequisites installed:
     ```bash
     python -m venv .venv
     venv\scripts\activate
- 5. 
+ 4. Install project dependencies:
+
+    ```bash
+    pip install -r requirements.txt
