@@ -79,7 +79,7 @@ The Person API should now be running locally at `http://localhost:8000/`
 * `DELETE /api/<user_id>`: Remove a person from the database by their user ID.
 
 ### Request Parameters
-For `POST /api`: Send a JSON request with the `name` attribute to create a new person. Example: `{"name": "Elon Musk"}`.
+For `POST /api`: Send a JSON request with the `name` attribute to create a new person. Example: `{"name": "Emmanuel Moses"}`.
 
 For `GET /api/<user_id>`, `PUT /api/<user_id>`, and `DELETE /api/<user_id>`: Replace `<user_id>` with the unique identifier of the person you want to access.
 
@@ -89,7 +89,7 @@ Here are some sample API usage examples:
 * Create a Person (POST):
  Send a POST request to /api with the following JSON body:
   ```json
-  {"name": "Femi Ojo"} 
+  {"name": "Emmanuel Moses"} 
 * Fetch Person Details (GET):
   Send a GET request to /api/1 to retrieve details for the person with ID 1.
 * Update Person Details (PUT):
