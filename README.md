@@ -1,10 +1,12 @@
 # Person Api
 
+
 ## Description
 
 This project is a simple REST API built using Python and Django Rest Framework. It allows you to perform CRUD (Create, Read, Update, Delete) 
 operations on a "person" resource. You can add new people, fetch details of existing people, 
 update their information, and remove them from the database. 
+
 
 ## Table of Contents
 
@@ -16,19 +18,20 @@ update their information, and remove them from the database.
   * [Request Parameters](#request_parameters)
   * [Examples](#examples)
 * [UML Diagrams](#uml_diagrams)
-* [GitHub Repository](#github_repository)
 * [Documentation](#documentation)
 * [Hosting](#hosting)
+  
+## Getting Started
 
-## Prerequisites
+### Prerequisites
 
 Before you begin, make sure you have the following prerequisites installed:
 
 * [Python](https://www.python.org/)
 * [Django](https://www.djangoproject.com/)
 * [Django Rest Framework](https://www.django-rest-framework.org/)
-  
-## Installation
+    
+### Installation
 
 1. Clone the GitHub repository:
 
@@ -67,6 +70,7 @@ Before you begin, make sure you have the following prerequisites installed:
    
 The Person API should now be running locally at `http://localhost:8000/`
 
+
 ## Usage
 ### Endpoints
 * `POST /api`: Create a new person by providing their name.
@@ -92,6 +96,11 @@ Here are some sample API usage examples:
   Send a PUT request to /api/1 with updated information to modify the details of the   person with ID 1.
 * Remove a Person (DELETE):
   Send a DELETE request to /api/1 to remove the person with ID 1 from the database.
+  
+
+## UML Diagrams
+You can view the UML diagrams for the project's structure and relationships in the diagrams directory.
+
 
 ## SOURCE CODE
 
@@ -130,8 +139,10 @@ class PersonDetailView(generics.RetrieveUpdateDestroyAPIView):
 
 ```
 
+
 ## Documentation
 For detailed information on request/response formats, setup instructions, and sample API usage, please refer to the DOCUMENTATION.md file in the repository.
+
 
 ## Hosting
 The Person API is hosted on https://myexisitingdomain.com/api.
