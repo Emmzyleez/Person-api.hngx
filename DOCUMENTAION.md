@@ -49,7 +49,7 @@ The project requirements include:
 
 ### READ
 
-- Endpoint: /api/{user_id}
+- Endpoint: `/api/{user_id}`
 - Description: Fetches details of a person by their ID.
 - HTTP Method: GET
 - Response Example:
@@ -61,7 +61,7 @@ The project requirements include:
 
 ### UPDATE
 
-- Endpoint: /api/{user_id}
+- Endpoint: `/api/{user_id}`
 - Description: Modifies details of an existing person by their ID.
 - HTTP Method: PUT
 - Request Body Example:
@@ -70,14 +70,11 @@ The project requirements include:
 - Response: Returns the updated person's details.
 
 ### DELETE
-- Endpoint: /api/{user_id}
+- Endpoint: `/api/{user_id}`
 - Description: Removes a person by their ID.
 - HTTP Method: DELETE
 - Response: Returns a success message.
-
-## Database Modeling
-Optionally, we have provided UML diagrams to illustrate the project's class and model structure. [UML Diagram Link]
-
+  
 ## Testing
 Testing scripts for CRUD operations using tools like Postman or Python scripts are available. You can use these scripts to:
 
@@ -124,13 +121,13 @@ The API is designed to handle dynamic input. You can perform operations using a 
 8. Start the development server:
 
 ## GitHub Repository
-The project is hosted on GitHub, and the repository contains essential files and resources: [GitHub Repository Link]
+The project is hosted on GitHub, and the repository contains essential files and resources: https://github.com/Emmzyleez/person-api-hngx
 
 ## Documentation
-Detailed documentation on how to set up, run, and use the API is provided in the repository's README.md file. Please refer to the README for comprehensive instructions.
+Detailed documentation on how to set up, run, and use the API is provided in the repository's [README.md file](https://github.com/Emmzyleez/person-api-hngx/blob/main/README.md). Please refer to the [README](https://github.com/Emmzyleez/person-api-hngx/blob/main/README.md) for comprehensive instructions.
 
 ## Hosting
-The API is hosted on a server with the following URL: https://myexistingdomain.com/api.
+The API is hosted on a server with the following URL: https://emmzyleez.pythonanywhere.com/api/
 
 ## Assumptions
 - The API successfully performs all CRUD operations.
