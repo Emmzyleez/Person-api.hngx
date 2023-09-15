@@ -10,14 +10,14 @@ update their information, and remove them from the database.
 
 ## Table of Contents
 
-* [Getting Started](#getting_started)
+* [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
   * [Endpoints](#endpoints)
-  * [Request Parameters](#request_parameters)
+  * [Request Parameters](#request-parameters)
   * [Examples](#examples)
-* [UML Diagrams](#uml_diagrams)
+* [UML Diagrams](#uml-diagrams)
 * [Documentation](#documentation)
 * [Hosting](#hosting)
   
