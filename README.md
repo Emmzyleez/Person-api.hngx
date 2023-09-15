@@ -141,7 +141,7 @@ class PersonDetailView(generics.RetrieveUpdateDestroyAPIView):
 
 
 ## Documentation
-For detailed information on request/response formats, setup instructions, and sample API usage, please refer to the DOCUMENTATION.md file in the repository.
+For detailed information on request/response formats, setup instructions, and sample API usage, please refer to the [DOCUMENTATION.md](Documentation.md) file in the repository.
 
 
 ## Hosting
