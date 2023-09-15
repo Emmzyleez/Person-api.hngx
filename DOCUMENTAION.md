@@ -124,7 +124,7 @@ The API is designed to handle dynamic input. You can perform operations using a 
 The project is hosted on GitHub, and the repository contains essential files and resources: https://github.com/Emmzyleez/person-api-hngx
 
 ## Documentation
-Detailed documentation on how to set up, run, and use the API is provided in the repository's [README.md file](https://github.com/Emmzyleez/person-api-hngx/blob/main/README.md). Please refer to the [README](https://github.com/Emmzyleez/person-api-hngx/blob/main/README.md) for comprehensive instructions.
+Detailed documentation on how to set up, run, and use the API is provided in the repository's [DOCUMENTATION.md file](https://github.com/Emmzyleez/person-api-hngx/blob/main/DOCUMENTAION.md). 
 
 ## Hosting
 The API is hosted on a server with the following URL: https://emmzyleez.pythonanywhere.com/api/
