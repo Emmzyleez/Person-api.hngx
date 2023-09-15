@@ -19,8 +19,7 @@
   - [Request/Response Formats](#requestresponse-formats)
   - [Sample Usage](#sample-usage)
 - [Hosting](#hosting)
-- [Known Limitations and Assumptions](#known-limitations-and-assumptions)
-- [Acceptance Criteria](#acceptance-criteria)
+- [Assumptions](#assumptions)
 
 ## Introduction
 
@@ -89,6 +88,40 @@ Testing scripts for CRUD operations using tools like Postman or Python scripts a
 - Modify the details of an existing person.
 - Remove a person.
 
+## Installation
+
+1. Clone the GitHub repository:
+
+   ```bash
+   git clone https://github.com/emmzyleez/person-api-hngx.git 
+2. Navigate to the project directory:
+
+   ```bash
+   cd person-api-hngx
+ 3. Create and activate virtual environment
+    
+    ```bash
+    python -m venv .venv
+    venv\scripts\activate
+ 4. Install project dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+5. Create a new Django project:
+
+   ```bash
+   django-admin startproject person .
+6. Create a new Django App:
+
+   ```bash
+   python manage.py startapp myapp
+7. Apply database migrations:
+
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+8. Start the development server:
+
 ## Dynamic Parameter Handling
 The API is designed to handle dynamic input. You can perform operations using a person's name. For example, if you pass "Emmanuel Moses," you can perform all CRUD operations on "Emmanuel Moses."
 
@@ -101,7 +134,7 @@ Detailed documentation on how to set up, run, and use the API is provided in the
 ## Hosting
 The API is hosted on a server with the following URL: https://myexistingdomain.com/api.
 
-## Acceptance Criteria
+## Assumptions
 - The API successfully performs all CRUD operations.
 - Clear and accurate UML diagrams are provided.
 - Testing scripts successfully test all CRUD operations without manual intervention.
