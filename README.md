@@ -17,7 +17,6 @@ update their information, and remove them from the database.
   * [Endpoints](#endpoints)
   * [Request Parameters](#request-parameters)
   * [Examples](#examples)
-* [UML Diagrams](#uml-diagrams)
 * [Documentation](#documentation)
 * [Hosting](#hosting)
   
@@ -96,11 +95,6 @@ Here are some sample API usage examples:
   Send a PUT request to /api/1 with updated information to modify the details of the   person with ID 1.
 * Remove a Person (DELETE):
   Send a DELETE request to /api/1 to remove the person with ID 1 from the database.
-  
-
-## UML Diagrams
-You can view the UML diagrams for the project's structure and relationships in the diagrams directory.
-
 
 ## Source Code
 
@@ -141,10 +135,10 @@ class PersonDetailView(generics.RetrieveUpdateDestroyAPIView):
 
 
 ## Documentation
-For detailed information on request/response formats, setup instructions, and sample API usage, please refer to the [DOCUMENTATION.md](Documentation.md) file in the repository.
+For detailed information on request/response formats, setup instructions, and sample API usage, please refer to the [DOCUMENTATION.md](https://github.com/Emmzyleez/person-api-hngx/blob/main/DOCUMENTAION.md) file in the repository.
 
 
 ## Hosting
-The Person API is hosted on https://myexisitingdomain.com/api.
+The Person API is hosted on https://emmzyleez.pythonanywhere.com/api
 
 
