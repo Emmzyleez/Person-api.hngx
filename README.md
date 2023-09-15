@@ -17,6 +17,7 @@ update their information, and remove them from the database.
   * [Endpoints](#endpoints)
   * [Request Parameters](#request-parameters)
   * [Examples](#examples)
+* [Source Code](#source-code)
 * [Documentation](#documentation)
 * [Hosting](#hosting)
   
