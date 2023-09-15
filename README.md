@@ -9,24 +9,24 @@ update their information, and remove them from the database.
 ## Table of Contents
 
 * [Getting Started](#getting_started)
-  * [Prequisites](#prequisites)
-  * [Installation](installation)
-* [Usage](usage)
-  * [Endpoints](endpoints)
-  * [Request Parameters](request_parameters)
-  * [Examples](examples)
-* [UML Diagrams](uml_diagrams)
-* [GitHub Repository](github_repository)
-* [Documentation](documentation)
-* [Hosting](hosting)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Usage](#usage)
+  * [Endpoints](#endpoints)
+  * [Request Parameters](#request_parameters)
+  * [Examples](#examples)
+* [UML Diagrams](#uml_diagrams)
+* [GitHub Repository](#github_repository)
+* [Documentation](#documentation)
+* [Hosting](#hosting)
 
 ## Prerequisites
 
 Before you begin, make sure you have the following prerequisites installed:
 
-* Python 3.x
-* Django
-* Django Rest Framework
+* [Python](https://www.python.org/)
+* [Django](https://www.djangoproject.com/)
+* [Django Rest Framework](https://www.django-rest-framework.org/)
   
 ## Installation
 
