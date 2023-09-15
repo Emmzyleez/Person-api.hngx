@@ -102,7 +102,7 @@ Here are some sample API usage examples:
 You can view the UML diagrams for the project's structure and relationships in the diagrams directory.
 
 
-## SOURCE CODE
+## Source Code
 
 - In `models.py`, define and validate the `Person` model.
 
