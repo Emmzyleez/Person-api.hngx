@@ -8,8 +8,8 @@ update their information, and remove them from the database.
 
 ## Table of Contents
 
-* [Getting Started](getting_started)
-  * [Prequisites](prequisites)
+* [Getting Started](#getting_started)
+  * [Prequisites](#prequisites)
   * [Installation](installation)
 * [Usage](usage)
   * [Endpoints](endpoints)
