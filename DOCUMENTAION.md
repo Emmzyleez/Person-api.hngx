@@ -12,18 +12,16 @@
 - [Database Modeling](#database-modeling)
 - [Testing](#testing)
 - [Dynamic Parameter Handling](#dynamic-parameter-handling)
+- [Setup Instructions](#setup-instructions)
 - [GitHub Repository](#github-repository)
 - [Documentation](#documentation)
-- [Setup Instructions](#setup-instructions)
-- [API Usage](#api-usage)
-  - [Request/Response Formats](#requestresponse-formats)
-  - [Sample Usage](#sample-usage)
 - [Hosting](#hosting)
 - [Assumptions](#assumptions)
+- [Limitations](#limitations)
 
 ## Introduction
 
-This project is a simple REST API built using Python, specifically the Django and Django Rest Framework, capable of performing CRUD (Create, Read, Update, Delete) operations on a "person" resource. The API interfaces with a chosen database and is designed to handle parameters dynamically.
+This project is a simple REST API built using Python, specifically the Django and Django Rest Framework, capable of performing CRUD (Create, Read, Update, Delete) operations on a "person" resource. You can add new people, fetch details of existing people, update their information, and remove them from the database.
 
 ## Requirements
 
@@ -88,7 +86,10 @@ Testing scripts for CRUD operations using tools like Postman or Python scripts a
 - Modify the details of an existing person.
 - Remove a person.
 
-## Installation
+## Dynamic Parameter Handling
+The API is designed to handle dynamic input. You can perform operations using a person's name. For example, if you pass "Emmanuel Moses," you can perform all CRUD operations on "Emmanuel Moses."
+
+## Setup Instructions
 
 1. Clone the GitHub repository:
 
@@ -122,9 +123,6 @@ Testing scripts for CRUD operations using tools like Postman or Python scripts a
    python manage.py migrate
 8. Start the development server:
 
-## Dynamic Parameter Handling
-The API is designed to handle dynamic input. You can perform operations using a person's name. For example, if you pass "Emmanuel Moses," you can perform all CRUD operations on "Emmanuel Moses."
-
 ## GitHub Repository
 The project is hosted on GitHub, and the repository contains essential files and resources: [GitHub Repository Link]
 
@@ -139,5 +137,9 @@ The API is hosted on a server with the following URL: https://myexistingdomain.c
 - Clear and accurate UML diagrams are provided.
 - Testing scripts successfully test all CRUD operations without manual intervention.
 - The API correctly handles and responds to different parameters.
+- The API correctly validates the 'name' field as a string only
 - The GitHub repository is well-organized and publicly accessible.
 - Documentation provides clear guidance on API usage, setup, request/response formats, and sample usage.
+
+## Limitations
+API provides basic error handling, but there may be situations where more detailed error messages are needed for debugging, which are not currently implemented.
